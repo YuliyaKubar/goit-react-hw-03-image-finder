@@ -71,6 +71,7 @@ img {
   justify-content: center;
   align-items: center;
   min-height: 64px;
+  margin-bottom: 10px;
   padding-right: 24px;
   padding-left: 24px;
   padding-top: 12px;
@@ -176,6 +177,21 @@ img {
 .ImageGalleryItem-image:hover {
   transform: scale(1.03);
   cursor: zoom-in;
+}
+
+
+/*Стили компонента Button*/
+
+.BtnClick {
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.BtnClick:hover, 
+.BtnClick:focus {
+  background-color: #303f9f;
 }
 
 /*
